@@ -9,4 +9,4 @@ os.system('huggingface-cli download --resume-download sentence-transformers/para
 # 下载InternLM-chat-7b模型
 import torch
 from modelscope import snapshot_download, AutoModel, AutoTokenizer
-model_dir = snapshot_download('Shanghai_AI_Laboratory/internlm2-chat-7b', cache_dir='./model', revision='v1.0.3')
+model_dir = snapshot_download('Shanghai_AI_Laboratory/internlm2-chat-7b', cache_dir='./model')
