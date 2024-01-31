@@ -78,7 +78,7 @@ with block as demo:
     with gr.Row(equal_height=True):
         with gr.Column(scale=15):
             # 展示的页面标题
-            gr.Markdown("""<h1><center>autonomous-vehicles-chat</center></h1>
+            gr.Markdown("""<h1><center>traffic-assistanti-rag-chat</center></h1>
                 <center>交通规则问答助手</center>
                 """)
 
