@@ -12,8 +12,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.retrievers import BM25Retriever, EnsembleRetriever
 import gradio as gr
 
-os.system("python model_download.py")
-os.system("python create_db.py")
+
 
 
 def load_chain():
