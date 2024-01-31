@@ -88,6 +88,6 @@ vectordb = Chroma.from_documents(
 vectordb.persist()
 
 
-with open("./rag_datasets/combine.txt", 'w', encoding='utf-8') as output_file:
+with open("./data_base/combine.txt", 'w', encoding='utf-8') as output_file:
     for doc in docs:
         output_file.write(doc.page_content + '\n')
