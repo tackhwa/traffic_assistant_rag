@@ -90,4 +90,4 @@ vectordb.persist()
 
 with open("./data_base/combine.txt", 'w', encoding='utf-8') as output_file:
     for doc in docs:
-        output_file.write(doc.page_content + '\n')
+        output_file.write(doc.page_content + '\n\n')
