@@ -10,8 +10,7 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
 import gradio as gr
 
-os.system("python model_download.py")
-os.system("python create_db.py")
+
 
 
 def load_chain():
