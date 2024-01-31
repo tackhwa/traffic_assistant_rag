@@ -15,8 +15,7 @@ from OutputParser import LineListOutputParser
 from langchain.chains import LLMChain
 import gradio as gr
 
-os.system("python model_download.py")
-os.system("python create_db.py")
+
 
 
 def load_chain():
