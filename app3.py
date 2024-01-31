@@ -23,7 +23,7 @@ def load_chain():
     # 定义 Embeddings
     embeddings = HuggingFaceEmbeddings(model_name="./model/sentence-transformer")
 
-    with open("./rag_datasets/combine.txt") as f:
+    with open("./data_base/combine.txt") as f:
         docs = f.read()
 
     text_splitter = RecursiveCharacterTextSplitter(
