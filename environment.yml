@@ -1,4 +1,4 @@
-name: InternLM2
+name: InternLM
 channels:
   - pytorch
   - nvidia
@@ -235,4 +235,3 @@ dependencies:
       - wrapt==1.16.0
       - yarl==1.9.4
       - zipp==3.17.0
-prefix: /root/.conda/envs/InternLM2
